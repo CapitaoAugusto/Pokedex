@@ -1,0 +1,19 @@
+.section_TeamDev {
+    position: absolute;
+    display: flex;
+    width: 90vw;
+    height: 5vh;
+    top: 110vh;
+    left: 80px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    justify-content: start;
+    align-items: center;
+}
+
+.text_OurTeam {
+    padding-left: 40vw;
+}
