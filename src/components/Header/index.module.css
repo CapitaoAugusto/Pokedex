@@ -21,6 +21,10 @@
   padding-left: 6vw;
 }
 
+.imgLogo:hover {
+  cursor: pointer;
+}
+
 .button {
 
   height: 11vh;
@@ -28,6 +32,17 @@
   border: none;
   font-family: Karla;
   font-weight: 400;
-  font-size: 3.8vh;
+  font-size: 3.3vh;
   line-height: 29.23px;
 }
+
+.button:hover{
+  cursor: pointer;
+}
+
+.button:focus{
+  border-bottom: 3px solid var(--blackCkeckedButton);
+}
+
+
+
