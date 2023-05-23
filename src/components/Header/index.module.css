@@ -6,6 +6,13 @@
   box-shadow: 4px 4px 16px rgba(1, 28, 64, 0.2);
 }
 
+.isHidden {
+  visibility: hidden;
+}
+
+.notHidenn {
+  visibility: visible;
+}
 .section_buttons {
   width: 100%;
   gap: 5.5vw;
@@ -75,14 +82,60 @@
 
   .section_buttons {
     width: 100%;
-    gap: 8.5vw;
+    gap: 2.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
+}
 
+/*RESPONSIVIDADE MOBILE*/
+@media (min-width: 320px) and (max-width: 450px) {
+  #page-wrap {
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
 
+  .header {
+    height: 100px;
+    
+    width: 131%;
+      
+  }
+  .section_buttons {
+    visibility: hidden;
+    gap: 0px;
+    width: 0vw;
+  }
 
+  .section_buttons>button{
+      margin: 0px;
+      font-size: 2px;
+      line-height: 2px;
+      width: 0%;
+  }
+
+  .imgLogo {
+      height: 22px;
+      width: 58px;
+
+      margin: 0px;
+      margin-left: -8px;
+      margin-top: 16px;
+      margin-bottom: 11px;
+  }
+
+  .isHidden{
+    visibility: inherit;
+    margin-left: 380px;
+    height: 18px;
+    margin-top: 18px;
+    position: absolute;
+  }
 
 }
+
+
+
+
