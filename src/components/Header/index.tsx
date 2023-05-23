@@ -6,7 +6,7 @@ import { HeaderMobile } from '../HeaderMobile';
 
 export const Header = () => {
 
-    const { tamanhoWidth: width } = window;// guardar tamanho da tela
+    
     const [headerMobile, setHeaderMobile] = useState(false);
     const viewHeaderMobile = () => setHeaderMobile(!headerMobile);
     const menuBlock = useRef<HTMLInputElement | null>(null);
