@@ -1,0 +1,141 @@
+.header {
+  background-color: var(--thrid);
+  width: 100%;
+  height: 14.15vh;
+  display: flex;
+  box-shadow: 4px 4px 16px rgba(1, 28, 64, 0.2);
+}
+
+.isHidden {
+  visibility: hidden;
+}
+
+.notHidenn {
+  visibility: visible;
+}
+.section_buttons {
+  width: 100%;
+  gap: 5.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgLogo {
+
+  height: 100%;
+  width: 12vw;
+  padding-left: 6vw;
+}
+
+.imgLogo:hover {
+  cursor: pointer;
+}
+
+.button {
+
+  height: 11vh;
+  background: none;
+  border: none;
+  font-family: Karla;
+  font-weight: 400;
+  font-size: 3.3vh;
+  line-height: 29.23px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:focus {
+  border-bottom: 3px solid var(--blackCkeckedButton);
+}
+
+/*RESPONSIVIDADE TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header {
+    background-color: var(--thrid);
+    width: 100%;
+    height: 93px;
+    display: flex;
+    box-shadow: 4px 4px 16px rgba(1, 28, 64, 0.2);
+  }
+
+  .button {
+
+    height: 6vh;
+    background: none;
+    border: none;
+    font-family: Karla;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+  }
+  
+
+  .imgLogo {
+
+    height: 100%;
+    width: 11vw;
+    padding-left: 2vw;
+  }
+
+  .section_buttons {
+    width: 100%;
+    gap: 2.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+/*RESPONSIVIDADE MOBILE*/
+@media (min-width: 320px) and (max-width: 450px) {
+  #page-wrap {
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+
+  .header {
+    height: 100px;
+    
+    width: 131%;
+      
+  }
+  .section_buttons {
+    visibility: hidden;
+    gap: 0px;
+    width: 0vw;
+  }
+
+  .section_buttons>button{
+      margin: 0px;
+      font-size: 2px;
+      line-height: 2px;
+      width: 0%;
+  }
+
+  .imgLogo {
+      height: 22px;
+      width: 58px;
+
+      margin: 0px;
+      margin-left: -8px;
+      margin-top: 16px;
+      margin-bottom: 11px;
+  }
+
+  .isHidden{
+    visibility: inherit;
+    margin-left: 380px;
+    height: 18px;
+    margin-top: 18px;
+    position: absolute;
+  }
+
+}
+
+
+
+
