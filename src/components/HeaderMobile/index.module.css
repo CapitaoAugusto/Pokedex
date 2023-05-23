@@ -1,0 +1,50 @@
+.headerContainerMobile{
+    width: 131%;
+    height: 300px;
+    background-color: black;
+    background: linear-gradient(180deg, #F5DB13 0%, #F2B807 100%);
+    box-shadow: 4px 4px 24px rgba(1, 17, 38, 0.2);
+    border-radius: 0px 0px 16px 16px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+
+}
+
+
+.section_buttonsMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 350px;
+    width: 100%;
+    margin-bottom: 44px;
+    gap: 8px;
+    height: max-content;
+    position: absolute;
+    margin-top: 105px;
+}
+
+.buttonMobile{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.imgLogoMobile{
+    height: 51px;
+    width: 140px;
+    margin: 32px;
+    padding-left: 3px;
+}
+
