@@ -10,9 +10,23 @@
   visibility: hidden;
 }
 
+.tamanhoLink {
+
+  width: max-content;
+  height: max-content;
+
+}
+
+link:focus {
+  border-bottom: 3px solid var(--blackCkeckedButton);
+
+}
+
+
 .notHidenn {
   visibility: visible;
 }
+
 .section_buttons {
   width: 100%;
   gap: 5.5vw;
@@ -71,7 +85,7 @@
     font-size: 19px;
     line-height: 22px;
   }
-  
+
 
   .imgLogo {
 
@@ -81,52 +95,55 @@
   }
 
   .section_buttons {
-    width: 100%;
+    width: max-content;
     gap: 2.5vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -22px;
   }
-  
+
+
+
 }
 
 /*RESPONSIVIDADE MOBILE*/
 @media (min-width: 320px) and (max-width: 450px) {
   #page-wrap {
-      padding-bottom: 10px;
-      padding-top: 10px;
-    }
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
 
   .header {
-    height: 100px;
-    
+    height: 62px;
     width: 131%;
-      
+
   }
+
   .section_buttons {
     visibility: hidden;
     gap: 0px;
     width: 0vw;
   }
 
-  .section_buttons>button{
-      margin: 0px;
-      font-size: 2px;
-      line-height: 2px;
-      width: 0%;
+  .section_buttons>button {
+    margin: 0px;
+    font-size: 2px;
+    line-height: 2px;
+    width: 0%;
   }
 
   .imgLogo {
-      height: 22px;
-      width: 58px;
+    height: 22px;
+    width: 58px;
 
-      margin: 0px;
-      margin-left: -8px;
-      margin-top: 16px;
-      margin-bottom: 11px;
+    margin: 0px;
+    margin-left: -8px;
+    margin-top: 16px;
+    margin-bottom: 11px;
   }
 
-  .isHidden{
+  .isHidden {
     visibility: inherit;
     margin-left: 380px;
     height: 18px;
@@ -135,7 +152,3 @@
   }
 
 }
-
-
-
-
