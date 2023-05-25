@@ -29,25 +29,16 @@ export const Header = () => {
     return (
         <header className={styles.header} ref={menuBlock}>
             <Link to="/"><img className={styles.imgLogo} src={Logo} alt="Logo do Pokedex" /></Link>
-
-
-            <img
-                onClick={viewHeaderMobile}
-                className={styles.isHidden}
-                src={BotaoHamburger}
-                alt="Botão hamburger mobile"
-            />
+            <img onClick={viewHeaderMobile} className={styles.isHidden} src={BotaoHamburger} alt="Botão hamburger mobile" />
             {headerMobile && <HeaderMobile />}
             <section className={styles.section_buttons}>
                 <Link className={styles.tamanhoLink} to="/">
                     <button className={styles.button}>Home</button>
                 </Link>
-                <a>
-                    <button className={styles.button}>Pokédex</button>
-                </a>
-                <a>
+                <Link to="/Pokedex"> <button className={styles.button}>Pokédex</button> </Link>
+                <Link to="/Legendaries">
                     <button className={styles.button}>Legendaries</button>
-                </a>
+                </Link>
                 <a href='https://pokeapi.co/'>
                     <button className={styles.button}>Documentation</button>
                 </a>
