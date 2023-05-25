@@ -1,0 +1,196 @@
+.sectionPokedex {
+  background-color: var(--White);
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+
+}
+
+.textCountPokemons {
+  padding-top: 10px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.pokemonText {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.containerCard {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+.articleCard {
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  height: 150px;
+  width: 130px;
+  padding-left: 25px;
+  padding-top: 3px;
+  gap: 17px;
+  border-radius: 8px 0px 0px 8px;
+  filter: drop-shadow(4px 4px 4px rgba(33, 33, 33, 0.1));
+  background-color: #F6F7F9;
+}
+
+.cardName {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+
+.cardDivs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+  gap: 20px;
+}
+
+.cardAtributeValue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 40px;
+  height: 40px;
+
+  border: 3.4px solid var(--dark);
+  border-radius: 999px;
+}
+
+.cardType {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 25px;
+  padding-top: 10px;
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+  color: #4B4B4B;
+}
+
+.conteinerCardRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 265px;
+  height: 150px;
+
+  border-radius: 0px 8px 8px 0px;
+  filter: drop-shadow(4px 4px 4px rgba(33, 33, 33, 0.1));
+
+  overflow: hidden;
+}
+
+
+.conteinerCardImg {
+  width: max-content;
+  height: 180px;
+  margin-bottom: 15%;
+}
+
+.sectionCardsPokemons {
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: -518px;
+  height: max-content;
+
+}
+
+/*RESPONSIVIDADE TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .sectionCardsPokemons {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    grid-row-gap: -59px;
+    gap: 24px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: -806px;
+  }
+
+  .sectionPokedex {
+    background-color: var(--White);
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+
+}
+
+
+/*RESPONSIVIDADE MOBILE*/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  .sectionPokedex {
+    background-color: var(--White);
+    width: 419px;
+    height: 100vh;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+
+
+  .sectionCardsPokemons {
+    width: 249px;
+    justify-content: space-around;
+    display: flex;
+    left: 10px1;
+    padding-left: 83px;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: -321px;
+    height: max-content;
+  }
+
+
+}

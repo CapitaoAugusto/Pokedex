@@ -1,6 +1,7 @@
 import styles from "./index.module.css"
 import BannerHomePage from '../../assets/BannerHomePage.svg'
 import { TeamDevMessage } from "../TeamDevMessage"
+import { Link } from "react-router-dom"
 
 export const HomePage = () => {
     return (
@@ -17,9 +18,7 @@ export const HomePage = () => {
                         You can know the type of Pokemon, its strengths, disadvantages and abilities
                     </p>
                 </p>
-                <button className={styles.buttonSeePokemons}>
-                    See pokemons
-                </button>
+                <Link to="/Pokedex"> <button className={styles.buttonSeePokemons}> See pokemons </button> </Link>
             </section>
             <TeamDevMessage />
         </section>
