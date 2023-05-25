@@ -3,18 +3,18 @@
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  
-    /*Colors:*/
-    --thrid: #F5DB13;
-    --yellowGradient: #F2B807 ;
-    --black: #000000;
-    --blackCkeckedButton: #212121;
-    --green: #73D677;
-    --redPageError: #D93E30;
-    --White: #F2F2F2;
-    /*EndColors*/
-  
-    
+
+  /*Colors:*/
+  --thrid: #F5DB13;
+  --yellowGradient: #F2B807;
+  --black: #000000;
+  --blackCkeckedButton: #212121;
+  --green: #73D677;
+  --redPageError: #D93E30;
+  --White: #F2F2F2;
+  /*EndColors*/
+
+
   width: 100%;
   height: 100vh;
 }

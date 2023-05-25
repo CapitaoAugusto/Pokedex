@@ -14,19 +14,17 @@ export const HeaderMobile = () => {
                 <Link to="/">
                     <button className={styles.buttonMobile}>Home</button>
                 </Link>
-                <a>
+                <Link to="/Pokedex">
                     <button className={styles.buttonMobile}>Pokédex</button>
-                </a>
-                <a>
+                </Link>
+                <Link to="/Legendaries">
                     <button className={styles.buttonMobile}>Legendaries</button>
-                </a>
+                </Link>
                 <a href='https://pokeapi.co/'>
                     <button className={styles.buttonMobile}>Documentation</button>
                 </a>
             </section>
         </header>
-
     );
-
 };
 

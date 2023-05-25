@@ -6,7 +6,7 @@
     justify-content: end;
     align-items: end;
     padding-bottom: 100px;
-    
+
 }
 
 .section_BannerPikachu {
@@ -144,6 +144,7 @@
         display: flex;
         position: absolute;
         top: 48vh;
+        left: 211px;
         width: 28vw;
         height: 55px;
         background-color: var(--green);
